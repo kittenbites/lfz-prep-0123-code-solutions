@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Flexbox - justify-content</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="starwars.css">
+    <style>
+      /* your styles here 👇 */
+      .card-wrapper {
+        flex-basis: 25%;
+        padding: 10px;
+      }
+      #card-deck {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="card-deck" style="display: flex; justify-content: center;">
+      <div class="card-wrapper">
+        <div class="star-wars-card">
+          <img src="images/kylo.jpg" alt="Kylo">
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="star-wars-card">
+          <img src="images/leia.jpg" alt="Leia">
+        </div>
+      </div>
+      <div class="card-wrapper">
+        <div class="star-wars-card">
+          <img src="images/vader.jpg" alt="Vader">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
