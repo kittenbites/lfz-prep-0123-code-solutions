@@ -8,6 +8,9 @@
       /* your styles here 👇 */
       #card-deck {
         min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center
       }
       .card-wrapper {
         flex-basis: calc(100% / 3);
@@ -15,7 +18,7 @@
     </style>
   </head>
   <body>
-    <div id="card-deck" style="display: flex; align-items: center; justify-content: center">
+    <div id="card-deck">
       <div class="card-wrapper">
         <div class="star-wars-card">
           <img src="images/yoda.jpg" alt="yoda">
